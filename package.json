@@ -1,12 +1,13 @@
 {
   "name": "testy-chips",
   "version": "1.0.0",
-  "description": "",
+  "homepage": "https://holyfcmoly.github.io/testy-chips/",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack serve",
-    "build": "webpack"
+    "build": "webpack",
+    "deploy": "gh-pages -d build"
   },
   "author": "HolyfcMoly <vladislav280296@gmail.com>",
   "license": "MIT",
@@ -22,6 +23,7 @@
     "browser-sync": "^2.29.3",
     "copy-webpack-plugin": "^11.0.0",
     "core-js": "^3.33.0",
+    "gh-pages": "^6.0.0",
     "html-webpack-plugin": "^5.5.3",
     "webpack-dev-server": "^4.15.1",
     "webpack-stream": "^7.0.0"
