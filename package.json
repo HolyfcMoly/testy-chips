@@ -1,0 +1,33 @@
+{
+  "name": "testy-chips",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve",
+    "build": "webpack"
+  },
+  "author": "HolyfcMoly <vladislav280296@gmail.com>",
+  "license": "MIT",
+  "browserslist": [
+    "> 1%",
+    "not dead"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "babel-loader": "^9.1.3",
+    "browser-sync": "^2.29.3",
+    "copy-webpack-plugin": "^11.0.0",
+    "core-js": "^3.33.0",
+    "html-webpack-plugin": "^5.5.3",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
