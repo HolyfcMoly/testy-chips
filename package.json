@@ -1,7 +1,7 @@
 {
   "name": "testy-chips",
   "version": "1.0.0",
-  "homepage": "https://holyfcmoly.github.io/testy-chips/",
+  "homepage": "https://holyfcmoly.github.io/testy-chips",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
